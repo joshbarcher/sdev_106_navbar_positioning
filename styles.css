@@ -1,0 +1,35 @@
+main {
+    width: 960px;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: #f2b8cc;
+    border: 2px solid black;
+}
+
+main p {
+    font-size: 1.2em;
+    margin: 15px 0;
+}
+
+/* move the first paragraph beneath
+   the navigation bar
+ */
+main p:first-child {
+    margin-top: 50px;
+}
+
+/* move the last paragraph above
+   the footer
+ */
+main p:last-child {
+    margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
